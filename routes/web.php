@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use \App\Http\Controllers\GenericController;
+use \App\Http\Controllers\GenericController;;
+
 
 
 
@@ -16,4 +17,4 @@ use \App\Http\Controllers\GenericController;
 |
 */
 
-Route::get('/',[GenericController::class, 'landing']);
+Route::get('/', [GenericController::class, 'landing']);
